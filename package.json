@@ -1,0 +1,16 @@
+{
+  "name": "pdfmake-stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pdfmake": "^0.1.39",
+    "prettier": "^1.15.3",
+    "pump": "^3.0.0"
+  }
+}
